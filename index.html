@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- ola te gusta el pimiento? -->
+    <meta charset="utf-8">
+    <title>moonxwisher random game generator</title>
+    <meta name="description" content="wake me up inside">
+    <meta name="author" content="Ken - moonxwisher">
+
+    <!-- mobile specific metas
+       ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+       ================================================== -->
+    <link rel="stylesheet" href="base.css">
+</head>
+
+
+
+<script>
+    function randomGames() {
+        var firstpart = ["you are a bird", "you are Hitler", "you are a white privileged girl", "you are some random racist", "you are a boy, just that, a boy", "you are a cryptobro", "you are a superhero", "you are a freelancer living in Spain", "you are Jesuchrist", "you are Crazyfrog", "you are a guy who drinks a lot of energy drinks", "you are an influencer", "you are Toby Fox", "you are Jack Skellington", "you are a robot"];
+        var secondpart = ["you have to save the world", "you have depression", "you have to encore a civil war", "you have to save the nation", "you have to just eat some noodles and cry", "you have to become a streamer as fast as you can", "you have to play mario 64 on loop", "you have to buy toilet paper in the midst of a pandemic", "you have to get a degree without crying", "you have to get your family into communism", "you have to beat Sans with a dance pad", "you have to get the driver’s license at the first try", "you have to understand Serial Experiments Lain without looking the wikipedia", "you have to defeat NFTS", "you have to paint graffiti on roller skates", "you have to defeat sadness", "you have to save little girls dressed as their daddy", "you have to work as a deliverer to pay your son's university"];
+
+
+        document.getElementById('ideaDisplay').innerHTML = "A game where " + firstpart[Math.floor(Math.random() * firstpart.length)] + " and " + secondpart[Math.floor(Math.random() * secondpart.length)];
+    }
+</script>
+
+
+
+<body>
+    <center>
+
+        <h1>A brillant game maker</h1>
+
+        <button type="button" onclick="randomGames()" style="text-align:center;">Click here to find some inspiration.</button>
+
+        <p id="ideaDisplay"></p>
+    </center>
+</body>
+
+</html>

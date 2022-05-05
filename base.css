@@ -1,0 +1,33 @@
+            html {
+                font-family: sans-serif;
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+            
+            body {
+                margin: 0;
+                background-color: #A877C8;
+            }
+            
+            h1 {
+                font-size: 8em;
+                margin: 0.67em 0;
+                text-align: center;
+                color: #A2DA5A;
+            }
+            
+            p {
+                text-align: center;
+                font-size: 3em;
+                margin: 0.8em;
+            }
+            
+            .button {
+                transition-duration: 0.4s;
+            }
+            
+            .button:hover {
+                background-color: #4CAF50;
+                /* Green */
+                color: white;
+            }
